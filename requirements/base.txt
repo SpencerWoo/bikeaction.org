@@ -6,7 +6,7 @@
 #
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.3
+aiohttp==3.14.3
     # via discord-py-interactions
 aiosignal==1.4.0
     # via aiohttp
@@ -16,7 +16,7 @@ annotated-types==0.7.0
     # via pydantic
 anyascii==0.3.2
     # via wagtail
-anyio==4.9.0
+anyio==4.14.2
     # via httpx
 anytree==2.12.1
     # via django-modeltree
@@ -49,7 +49,7 @@ beautifulsoup4==4.13.3
     #   wagtail
 billiard==4.2.1
     # via celery
-bleach[css]==6.2.0
+bleach[css]==6.4.0
     # via
     #   django-bleach
     #   django-markdownfield
@@ -107,7 +107,7 @@ cryptography==44.0.2
     #   service-identity
 cssutils==2.11.1
     # via pynliner
-daphne==4.1.2
+daphne==4.2.3
     # via channels
 defusedxml==0.7.1
     # via willow
@@ -220,13 +220,13 @@ django-stubs-ext==5.1.3
     #   django-tasks
 django-taggit==6.1.0
     # via wagtail
-django-tasks==0.6.1
+django-tasks==0.7.0
     # via wagtail
 django-treebeard==4.7.1
     # via wagtail
 django-tuieditor==0.2.0
     # via -r base.in
-djangorestframework==3.15.2
+djangorestframework==3.17.2
     # via wagtail
 draftjs-exporter==5.1.0
     # via wagtail
@@ -246,11 +246,11 @@ frozenlist==1.5.0
     #   aiosignal
 geographiclib==2.0
     # via geopy
-geopy==2.4.1
+geopy==2.5.0
     # via -r base.in
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.44
+gitpython==3.1.62
     # via wagtail-localize-git
 h11==0.16.0
     # via httpcore
@@ -322,7 +322,7 @@ psycopg2-binary==2.9.10
     # via -r base.in
 pyap2==0.1.14
     # via -r base.in
-pyasn1==0.6.2
+pyasn1==0.6.4
     # via
     #   pyasn1-modules
     #   service-identity
@@ -385,11 +385,9 @@ six==1.17.0
     #   python-dateutil
 smmap==5.0.2
     # via gitdb
-sniffio==1.3.1
-    # via anyio
-soupsieve==2.6
+soupsieve==2.9
     # via beautifulsoup4
-sqlparse==0.5.3
+sqlparse==0.6.0
     # via django
 stripe==11.6.0
     # via dj-stripe
@@ -427,7 +425,7 @@ tzdata==2025.1
     #   celery
     #   icalendar
     #   kombu
-urllib3==2.6.3
+urllib3==2.8.0
     # via
     #   botocore
     #   django-anymail
@@ -438,7 +436,7 @@ vine==5.1.0
     #   amqp
     #   celery
     #   kombu
-wagtail==6.4.1
+wagtail==7.0.9
     # via
     #   -r base.in
     #   wagtail-link-block
@@ -463,10 +461,8 @@ webencodings==0.5.1
     #   tinycss2
 whitenoise==6.9.0
     # via -r base.in
-willow[heif]==1.9.0
-    # via
-    #   wagtail
-    #   willow
+willow[heif]==1.11.0
+    # via wagtail
 yarl==1.18.3
     # via aiohttp
 zope-interface==7.2

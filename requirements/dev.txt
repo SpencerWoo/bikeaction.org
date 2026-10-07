@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements/dev.in
 #
-black==24.3.0
+black==26.10.0
     # via -r dev.in
 blessed==1.20.0
     # via jurigged
@@ -30,11 +30,12 @@ mypy-extensions==1.0.0
     # via black
 ovld==0.3.2
     # via jurigged
-packaging==23.2
+packaging==26.3
     # via
     #   black
     #   build
-pathspec==0.12.1
+    #   wheel
+pathspec==1.1.1
     # via black
 pip-tools==7.3.0
     # via -r dev.in
@@ -46,13 +47,15 @@ pyflakes==3.2.0
     # via flake8
 pyproject-hooks==1.0.0
     # via build
+pytokens==0.4.1
+    # via black
 six==1.16.0
     # via blessed
 watchdog==3.0.0
     # via jurigged
 wcwidth==0.2.13
     # via blessed
-wheel==0.42.0
+wheel==0.48.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
